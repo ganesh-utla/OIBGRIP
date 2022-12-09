@@ -1,0 +1,27 @@
+
+body, html {
+    height: 100%;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.bg {
+    background-color: rgba(0, 255, 204, 0.9);
+    opacity: 0.2;
+    filter: blur(8px);
+    height: 100%;
+}
+
+.wrapper {
+    left: 50%;
+    top: 50%;
+    border: 3px solid rgb(0, 164, 143);
+    position: absolute;
+    padding: 70px 40px;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: rgba(132, 220, 203, 0.9);
+    border-radius: 56px;
+}
