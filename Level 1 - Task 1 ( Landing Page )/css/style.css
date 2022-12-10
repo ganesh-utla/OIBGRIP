@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(67, 121, 246);
+    position: sticky;
+}
+
+.nav-link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(165, 202, 4);
+}
+
+.nav-logo {
+    height: 42px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-logo img{
+    height: inherit;
+}
+
+.navbar-brand{
+    color: yellow;  
+}
+
+.navbar-brand:hover {
+    color: yellow;
+}
+
+.btn-outline-warning {
+    color: yellow;  
+    border-color: yellow;
+}
+
+.btn-outline-warning:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.main {
+    height: 400px;
+}
+
+#main {
+    color: yellow;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bg {
+    background: url('../mall.jpg');
+    height: inherit;
+    filter: blur(5px);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+.main-content {
+    color: yellow;
+    /* width: 70%; */
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    -webkit-text-stroke-color: rgb(117, 117, 13);
+    -webkit-text-stroke-width: 2px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.main-btn {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-warning {  
+    border-color: rgb(221, 221, 0);
+    background-color: yellow;
+    color: black;
+}
+
+.btn-warning:hover{
+    background-color: rgb(221, 221, 0);
+}
+
+#items {
+    height: 700px;
+}
+
+.items-bg {
+    background-image: url('../clotheshop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    transform: translate(0, -3%);
+    z-index: -1;
+}
+
+.items-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.card {
+    margin: 4px 25px;
+}
+
+.items-heading {
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(67, 121, 246);
+    color: yellow;
+    padding: 25px 0 15px 0;
+    margin-top: -20px;
+}
+
+address {
+    color: black;
+}
+
+.social {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
