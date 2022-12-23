@@ -25,3 +25,18 @@ body, html {
     background-color: rgba(132, 220, 203, 0.9);
     border-radius: 56px;
 }
+
+.temp-row {
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+}
+
+.temp-row input {
+    padding: 5px;
+    margin-left: 25px;
+    outline: none;
+    border: 2px solid rgb(0, 164, 143);
+    border-radius: 8px;
+    width: 300px;
+}
